@@ -5,4 +5,5 @@ urlpatterns = [
     path('',views.Product,name='Product'),
     path('order',views.Order,name='order'),
     path('webdata',views.WebData,name="webdata")
+    path('camera',views.Camera,name="Camera")
 ]

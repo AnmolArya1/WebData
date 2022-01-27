@@ -20,3 +20,5 @@ def WebData(request):
     response = requests.request("GET", url).json()
     return render(request,"webdata.html",{'Data': response})
     
+def Camera(request):
+    return render(request,"camera.html")
